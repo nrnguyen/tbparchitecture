@@ -1,0 +1,277 @@
+/* TEMPLATE STYLES */
+
+/* Necessary for full page carousel*/
+
+    html,
+    body,
+    .view {
+        height: 100%;
+    }
+
+    /* Fonts*/
+    .carousel-item h1 {
+      color: #FFF;
+      font-size: 3.5em;
+      font-family: 'Muli', sans-serif;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 10px !important;
+      position: relative;
+      z-index 12;
+    }
+
+    .carousel-item h3 {
+      color: #FFF;
+      font-size: 18px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 250 !important;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      margin-bottom: 15px !important;
+      position: relative;
+      z-index 12;
+    }
+
+    /* Navigation*/
+
+    .navbar {
+        background-color: #FFF;
+    }
+
+    .navbar .logo {
+      width: 90px;
+    }
+
+    .navbar .nav-link {
+      padding: 10px 150px;
+      line-height: 1;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #000;
+      font-family: 'Muli', sans-serif;
+      font-weight: 600;
+      position: relative;
+      z-index: 2;
+    }
+
+    .scrolling-navbar {
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        background-color: #FFFFFF;
+    }
+
+    footer.page-footer {
+        background-color: #777777;
+        margin-top: 0;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .navbar {
+            background-color: #FFFFFF;
+        }
+        .display-3 {
+            font-size: 2rem;
+            margin-top: 6rem;
+        }
+        h3 {
+            font-size: 1rem;
+        }
+    }
+
+    @media only screen and (max-width: 667px) {
+        .display-3 {
+            font-size: 3rem;
+        }
+    }
+
+    /* Carousel*/
+    .carousel,
+    .carousel-item,
+    .active {
+        height: 100%;
+    }
+
+    .carousel-inner {
+        height: 100%;
+    }
+
+    /*Caption*/
+
+    .flex-center {
+        color: #fff;
+    }
+
+    @media (min-width: 776px) {
+        .carousel .view ul li {
+            display: inline;
+        }
+        .carousel .view .full-bg-img ul li .flex-item {
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    .navbar .btn-group .dropdown-menu a:hover {
+        color: #000 !important;
+    }
+
+    .navbar .btn-group .dropdown-menu a:active {
+        color: #fff !important;
+    }
+
+    .jarallax {
+      position: relative;
+      z-index: 0;
+    }
+
+  .jarallax > .jarallax-img {
+      position: absolute;
+      object-fit: cover;
+      /* support for plugin https://github.com/bfred-it/object-fit-images */
+      font-family: 'object-fit: cover;';
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+  }
+
+  .col {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .container-max .row .feature-content {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .container-max {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .feature-header {
+    background-color: #777;
+    display: block;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .feature-header h2 {
+    color: #FFF;
+    font-family: 'Muli', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .feature-content {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .content-header {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 250;
+    text-transform: uppercase;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .content-header strong {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+  }
+
+  .content-text {
+    font-size: 1.0rem;
+    line-height: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .white-text {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  .img-project {
+    width: 100%;
+  }
+
+  .focus {
+    padding-top: 100px;
+    width: 100%;
+  }
+
+  .focus img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .focus-1 {
+    background-color: rgba(150,150,150,0.85);
+    height: 700px;
+    width: 100%;
+  }
+
+  .focus-2 {
+    background-color: rgba(51,102,153,0.85);
+    height: 700px;
+    width: 100%;
+  }
+
+  .focus-3 {
+    background-color: rgba(209,81,39,0.85);
+    height: 700px;
+    width: 100%;
+  }
+
+  .focus-text {
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+
+  .btn-hire {
+    border-radius: 30px;
+    color: #000;
+    line-height: 15px;
+  }
+
+  /* About */
+
+  .team-section h2 {
+    padding-top: 100px !important;
+  }
