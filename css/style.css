@@ -10,8 +10,8 @@
 
     /* Fonts*/
     .carousel-item h1 {
-      color: #000;
-      background-color: white;
+      color: #FFF !important;
+      background-color: transparent;
       font-size: 60px;
       font-family: 'Muli', sans-serif;
       font-weight: 600;
@@ -23,8 +23,8 @@
     }
 
     .carousel-item h3 {
-      color: #000;
-      background-color: white;
+      color: #FFF !important;
+      background-color: transparent;
       font-size: 18px;
       font-family: 'Roboto', sans-serif;
       font-weight: 250 !important;
@@ -50,7 +50,7 @@
     }
 
     .navbar .logo {
-      width: 130px;
+      width: 280px;
     }
 
     .navbar .nav-link {
@@ -90,7 +90,7 @@
     }
 
     .top-nav-collapse .navbar-brand .logo {
-        width: 80px;
+        width: 200px;
         -webkit-transition: width .6s ease-in-out, padding .6s ease-in-out;
         -moz-transition: width .6s ease-in-out, padding .6s ease-in-out;
         transition: width .6s ease-in-out, padding .6s ease-in-out;
