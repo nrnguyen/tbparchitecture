@@ -7154,14 +7154,14 @@ body.scrollable {
 
 .carousel .carousel-control-prev-icon,
 .carousel .carousel-control-next-icon {
-  width: 36px;
-  height: 36px; }
+  width: 50px;
+  height: 60px; }
 
 .carousel .carousel-control-prev-icon {
-  background-image: url(../img//svg/arrow_left.svg); }
+  background-image: url(../img//arrow/arrow_left.png); }
 
 .carousel .carousel-control-next-icon {
-  background-image: url(../img//svg/arrow_right.svg); }
+  background-image: url(../img//arrow/arrow_right.png); }
 
 .carousel .carousel-indicators li {
   max-width: 10px;
