@@ -56,7 +56,6 @@
     .navbar .logo {
       border: 1px solid white;
       opacity: 0.75;
-      width: 100px;
     }
 
     .navbar .nav-link {
@@ -67,10 +66,6 @@
       letter-spacing: 1px;
       position: relative;
       z-index: 2;
-    }
-
-    .navbar.navbar-light {
-
     }
 
     .navbar.navbar-light a {
@@ -97,10 +92,13 @@
 
     .top-nav-collapse .navbar-brand .logo {
         opacity: 0.8;
-        width: 65px;
         -webkit-transition: width .6s ease-in-out, padding .6s ease-in-out;
         -moz-transition: width .6s ease-in-out, padding .6s ease-in-out;
         transition: width .6s ease-in-out, padding .6s ease-in-out;
+    }
+
+    footer {
+      background-image: url(../img/footer-bg.jpg);
     }
 
     footer p {
@@ -113,9 +111,6 @@
     }
 
     @media only screen and (max-width: 767px) {
-        .navbar {
-            background-color: #FFFFFF;
-        }
         .display-3 {
             font-size: 2rem;
             margin-top: 6rem;
@@ -276,7 +271,7 @@
     max-height: 600px;
   }
 
-  .mask {
+  .feature-content .mask {
     outline: 1px solid white;
     outline-offset: -10px;
   }
@@ -494,6 +489,25 @@
 
   /* Extra Small devices (small phones, 100px and up) */
   @media (min-width: 250px) {
+    .navbar {
+      background-color: #FFFFFF;
+    }
+
+    .navbar.navbar-light a {
+      color: #000 !important;
+    }
+
+    .navbar .logo {
+      border: 1px solid white;
+      width: 0px;
+    }
+
+    .top-nav-collapse .navbar-brand .logo {
+      width: 0px;
+      -webkit-transition: width .6s ease-in-out, padding .6s ease-in-out;
+      -moz-transition: width .6s ease-in-out, padding .6s ease-in-out;
+      transition: width .6s ease-in-out, padding .6s ease-in-out;
+    }
 
     /* Fonts*/
     .carousel-item h1 {
@@ -540,6 +554,25 @@
 
   /* Large devices (desktops, 992px and up) */
   @media (min-width: 992px) {
+    .navbar {
+      background-color: transparent;
+    }
+
+    .navbar.navbar-light a {
+      color: #FFF !important;
+    }
+
+    .navbar .logo {
+      width: 100px;
+    }
+
+    .top-nav-collapse .navbar-brand .logo {
+      width: 65px;
+      -webkit-transition: width .6s ease-in-out, padding .6s ease-in-out;
+      -moz-transition: width .6s ease-in-out, padding .6s ease-in-out;
+      transition: width .6s ease-in-out, padding .6s ease-in-out;
+    }
+
     /* Fonts*/
     .carousel-item h1 {
       font-size: 65px;
