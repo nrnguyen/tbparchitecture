@@ -284,14 +284,62 @@
 
 /* Highlights */
 
-  .hightlights h1 {
+  .highlight-content {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .highlight-content a {
+    color: #000;
+  }
+
+  .highlight-content h1 {
     font-size: 2rem;
-    text-transform: uppercase;
+    position: relative;
+    top: 25px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  .highlight-content .highlight-icon {
+    padding-top: 10px;
+    position: relative;
+    top: 25px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  .highlight-content p {
+    position: relative;
+    top: 160px;
+    line-height: 30px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  .highlight-content:hover h1 {
+    top: 10px;
+  }
+
+  .highlight-content:hover .highlight-icon {
+    top: 10px;
+  }
+
+  .highlight-content:hover p {
+    top: 40px;
   }
 
   .highlight-desc p {
     font-size: 1rem;
     text-transform: none;
+  }
+
+  .awards p {
+    padding-top: 20px;
   }
 
   .btn-hire {
