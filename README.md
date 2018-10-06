@@ -1,4 +1,4 @@
-# thebluerockarchitecture
+# The Blue Rock Architecture
 
 <b>PROBLEM:</b><br>
 What is architecture? Architecture is the art or practice of designing and constructing buildings.
@@ -22,6 +22,6 @@ title, and a short About Me section when the card is flipped.
 <b>Description:</b><br>
 Material Bootstrap theme for tBP/Architecture firm.
 
-Demo - https://rockynhatnguyen.github.io/tbparchitecture/
+Demo - https://rockynhatnguyen.github.io/TBP-Architecture/
 
 Version: MDB Pro 4.4.5
